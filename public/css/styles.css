@@ -1,0 +1,2087 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Montserrat Black";
+  src: url("../assets/fonts/Montserrat-Black.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url("../assets/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Black";
+  src: url("../assets/fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../assets/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("../assets/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+  color :#fff !important;
+}
+
+nav.abajo {
+  background-color: #FF1B21;
+}
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* GLOBAL STYLES
+--------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  /* padding-bottom: 3rem; */
+  color: #5a5a5a;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#linenoticias{
+  height: 2px;
+  border-width: 0;
+  color: #ffffff;
+  background-color: white;
+  opacity: 0.65;width: 41rem;
+}
+
+#imgrelogpared{
+  height: auto;
+  margin-left: 2px;
+  position: sticky;
+  width: 30px;
+  margin-top: 6px;
+}
+
+
+
+#map {
+  height: 100%;
+}
+#sectmapa{
+  height: 39pc;
+}
+#btndiv{
+  margin-top: 152px;
+}
+
+/*JOSUE**/
+.titles{
+  margin-top: 15rem;
+  }
+  
+  .internal-titles{
+    text-align:left;
+    padding-left:0px;
+    padding-right:0px;
+    font-family: "Montserrat Black";
+    color: #fff;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+  }
+  
+  .internal-number{
+    font-family: "Roboto Regular";
+  }
+  
+  /* Solid border */
+  hr.solid {
+    border-top: 3px solid #fff;
+    width: 150%;
+    margin-top: -3%;
+  }
+  
+  /*JOSUE**/
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 0rem;
+}
+
+#heightmovcarruce{
+  height: 56rem;
+}
+
+#myCarousel3{
+ background-color: #F1F1F1 !important;
+}
+
+#myCarousel4{
+  background-color: #F1F1F1 !important;
+ }
+
+ #footers {
+  padding-top: 3rem !important;
+  padding-right: 1rem !important;
+  padding-bottom: 3rem !important;
+  padding-left: 1rem !important;  
+ }
+
+/* .carousel-indicators li {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+}*/
+ .carousel-indicators {
+  bottom: 65px;
+} 
+#mousescroll {
+  position: absolute;
+right: 0;
+bottom: 30px;
+left: 0;
+z-index: 2;
+display: flex;
+justify-content: center;
+padding-left: 0;
+margin-right: 15%;
+margin-left: 15%;
+list-style: none;
+}
+
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;  
+  position: relative;
+  margin: 0 15px;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.carousel-indicators li:after {
+  border-radius: 50%;  
+  border: 4px solid #fff;
+  position: absolute;
+  content: "";
+  top: -7px;
+  left: -7px;
+  bottom: -7px;
+  right: -7px;
+}
+
+
+.carousel-indicators li.active {
+  background-color: white;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+  padding-bottom: 11.25rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 62rem;
+}
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+#myCarousel{  
+margin-right: -16px;  
+margin-left: -16px;
+}
+
+
+.card {
+  border: none !important;
+}
+.card-body{
+  background-color: #fff;
+}
+
+.card-title{
+  color: #000;
+  font-family: "Montserrat Black";
+}
+.list-group-item{
+  font-family: "Roboto Regular";
+}
+
+
+.list-group-item{
+  border:none !important;
+  color:#000;
+}
+
+/*cartas*/
+.flip-card {    
+  width: 100%;
+  height: 362px;
+  perspective: 1000px;    
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;    
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  /* background-color: #bbb;
+  color: black; */
+}
+
+.flip-card-back {
+  text-align: left;
+  transform: rotateY(180deg);
+}
+
+/*paralax*/
+
+.paralax {
+  /* The image used */
+  background-image: url("../assets/img/capac_paralax.jpg");
+
+  /* Set a specific height */
+  min-height: 766px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#marketing
+{
+  margin-top: -67px;
+  padding: 117px;
+}
+
+#textcard{
+  padding-top: 84px;
+}
+
+#leadcard{
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: "Roboto Regular";
+  padding-right: 92px;
+}
+
+#textmisionCont{
+  text-align:left;
+  padding-left:0px;
+  padding-right:0px;
+  font-family: "Montserrat Black";
+  color: #000;
+  margin-bottom: 40px;
+}
+
+#text-leadcont{
+  font-family: "Roboto Regular";
+  text-align: justify;
+  padding-left:0px;
+  padding-right:0px;
+  color: #000;
+}
+
+.featurette{
+  font-family: "Montserrat Black";
+  
+}
+#titleorganismo{
+  margin-bottom: 60px;
+}
+
+.text-organismo {
+  padding-top: 7.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+} 
+
+#leadtextgremial{
+  font-family: "Roboto Regular";
+  padding-left: 220px;
+  padding-right: 220px;
+}
+
+.card {
+  height: 462px;
+  background-color: transparent !important;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  /*height: 362px;*/
+  object-fit: cover;
+}
+#textcardeventos{
+  color: white !important;
+  margin-top: 159px;
+  font-family: 'Montserrat Black';
+  font-size: 27px;line-height: 1.0;
+}
+
+#myCarousel3{
+  display: block;
+}
+
+#titleinterior{
+  padding-bottom: 0rem !important;
+}
+
+/* ::marker{
+  width: 25px;
+} */
+ /* ul .listadocartas{
+  background-color: #fff;
+}
+
+ul .calendartext{   
+   list-style-image: url("../assets/img/calendario.png");   
+   margin-bottom: 7px;
+   font-size: 17px;
+   margin-left: 35px;
+   color: #000;
+   margin-top: -14px;
+}
+
+ul .timetext{  
+  list-style-image: url("../assets/img/reloj-de-pared.png");
+  margin-bottom: 7px;
+   font-size: 17px;
+   margin-left: 35px;
+   color: #000;
+   margin-top: -4px;
+}
+
+ul .localitationtext {  
+  list-style-image: url("../assets/img/ubicacion.png");
+  margin-bottom: 7px;
+   font-size: 17px;
+   margin-left: 35px;
+   color: #000;
+   margin-top: -14px;
+} */
+
+ul .calendartext{
+  list-style: none;
+  color: #000;
+}
+
+ul .timetext{
+   list-style: none;
+   color: #000;  
+}
+
+ul .localitationtext {   
+  list-style: none; 
+   color: #000;   
+} 
+
+
+
+#myCarousel4{
+  display: none;
+}
+
+#text-organismoinfo{
+  margin-left: 61px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing {
+      margin-top: 88px;
+
+}
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+  text-align: center;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+hr:not([size]) {
+  height: 0px;
+}
+
+#gremial{
+  background-color: #F1F1F1;
+      height: 76pc;
+}
+
+#SliderStatic{
+  margin-right: -12px;
+  margin-left: -12px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../assets/img/flechaderecha.png");
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  width: 40px;
+    height: 40px;
+}
+.carousel-control-prev-icon {
+  background-image: url("../assets/img/flechaizquierda.png");
+}
+.carousel-control-prev-icon, .carousel-control-prev-icon{
+  width: 40px;
+    height: 40px;
+}
+
+.featurette-divider hr {
+  background-color: #F1F1F1 !important;
+}
+
+.carousel-item  {
+  background-color: #F1F1F1;
+}
+
+.carousel-caption h1 {
+  color:#000 !important;
+  font-size: 56px;
+}
+
+.carousel-caption p {
+  color:#000 !important;
+  margin-top: 92px; 
+}
+
+.navbar  ul{
+  margin-right: 20%;
+}
+.navbar ul li{
+  margin-right: 20%;
+}
+
+#navbarCollapse{
+margin-left: 91px;
+}
+
+#instrumento{
+  width: 240px;
+}
+.gremialmovilcarousel{
+  display: none;
+}
+
+/*conteo*/
+span.num {
+color: #000;
+display: grid;
+place-items: center;
+font-weight: 600;
+font-size: 110.37px;
+font-family: "Montserrat Black";
+}
+
+span.text {
+color: #000;
+font-size: 1.1em;
+text-align: center;
+pad: 0.7em 0;
+font-weight: 400;
+line-height: 0;
+}
+
+/* #previcon{
+  left: 181px !important;
+  width: 40px;
+  height: 40px;
+  margin-top: 23%;
+  background-color: black;
+  border-radius: 70%;
+} */
+
+#banerrigt{
+  width: 0%;
+  padding-bottom: 0rem;
+  bottom: 4rem;
+  
+  left: 1%;
+}
+#imgizq{
+  margin-top: 8px;
+}
+
+
+#btninscrib{
+  width:38% ;
+  font-family: "Roboto Regular";
+  border-radius: 0.7rem;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.nav-link{
+  font-family: "Roboto Medium";
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  font-family: "Roboto Bold";
+  
+}
+
+
+.carousel-control-prev {
+  left: 62px !important;
+}
+
+#videobanermovil{
+  display: none;
+}
+#videomovildesk{
+  display: block;
+}
+
+.num{
+  margin-top: -324px;
+}
+.lead{
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-family: "Roboto Bold";
+    
+}
+#titleeventos{
+  font-family: "Montserrat Black";
+  padding-right: 30px;
+  margin-top: 67px;
+  color: #000;
+  font-size: 56px;
+}
+#textevents{
+  font-family: "Roboto Regular";
+  padding-right: 184px;
+  color: #000;
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-top: 92px;
+}
+
+#imgrectangulo{
+  /*width: 100%;
+  margin-top: 28px;*/
+
+  width: 106%;
+  margin-top: 17px;
+  margin-left: -23px;  
+}
+
+#textmision{
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+#imgcapac1{
+  width: auto;height:614px;border-radius: 25px 0 0 25px;margin-left: -14px;
+}
+
+
+footer{
+  background-color: #1F1D23;
+}
+
+#textfooterrigth{
+   text-align: right;
+}
+
+.text-white {
+  text-decoration: none;
+}
+
+#imgfootlog{
+  width: auto;
+  
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    font-size: 2.5rem;
+  }
+}
+@media all and (min-width: 350px) and (max-width: 1199px) { 
+  #navbarCollapse{
+    margin-left: 0px;
+   background-color: #FF1B21;
+  }
+}
+
+
+  
+
+@media all and (min-width: 1200px) and (max-width: 1399px) { 
+  .num{
+    margin-top: -293px !important;
+    padding-left: 42px;
+    padding-right: 42px;
+  }
+  .lead{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+
+  }
+ 
+  
+}
+@media all and (min-width: 1582px)  { 
+  #imgredesocialesfoot{
+    margin-right: 60px;
+  }
+}
+
+
+
+@media all and (min-width: 1200px) and (max-width: 1581px) { 
+
+  video{
+    margin-left: -287px;
+    }
+    
+    
+    #banerrigt{
+     width: 7%;
+        padding-bottom: 0rem;
+        bottom: -3rem;
+        left: 0%;
+        background-color: red;
+        position: absolute;
+        height: 100%;
+    
+    }
+    #imgizq
+    {
+      margin-top: -8px;
+      width: 5pc;
+    }
+
+    .fixed-top{
+      right: -85px;
+    }
+
+    .carousel-control-prev {
+      left: 30px !important;
+  }    
+    #imgrectangulo{    
+      margin-top: -26px;
+    }
+  
+  span.num {
+   
+    font-size: 100.37px;
+    margin-top: -315px;
+    
+    }
+
+    .featurette-heading {
+      margin-top: 1rem;
+  }
+  #imgfootlog{
+    margin-left: -10px;
+    
+  }
+  #imgcapac1{
+    width: 114% !important;
+    height: 568px !important;
+
+  }
+  #imgredesocialesfoot{
+    margin-left: 33px;
+  }
+
+    
+
+
+}
+
+
+@media all and (min-width: 1080px) and (max-width: 1199px) { 
+  video {
+    margin-left: -399px;
+  }
+  #banerrigt{
+    display: none;
+  }
+  .num{
+    margin-top: -285px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  #imgrectangulo{
+    width: 123%;
+    margin-top: -18px;
+  }
+  #textmision{
+    
+    padding-right: 0px;
+    margin-top: -24px;
+  }
+  span.num {
+   
+    font-size: 100.37px;
+    margin-top: -264px;
+    
+    }
+    .carousel-caption h1{
+      font-size: 38px;
+    }
+    .featurette-heading {
+      margin-top: 1rem;
+  }
+  #imgfootlog{
+    margin-left: -10px;    
+  }
+  #imgredesocialesfoot{
+    margin-left: 33px;
+  }
+
+
+  #text-organismoinfo {
+    margin-left: 17px;
+  }
+  .text-organismo{
+    padding-top: 5.25rem !important;
+  }
+  #imgcapac1{
+    width: 395px !important;
+    height: 568px !important;
+
+  }
+
+  #imgrelogpared{
+    height: auto;
+    margin-left: 5px;
+    position: sticky;
+    width: 25px;
+    margin-top: 5px;
+  }
+  
+  
+    
+ 
+}
+
+
+
+@media all and (min-width: 768px) and (max-width: 1079px) { 
+  video {
+    margin-left: 0px;
+  }
+  #banerrigt{
+    display: none;
+  }
+  #videobanermovil{
+    display: block;
+  }
+  #videomovildesk{
+    display: none;
+  }
+  #videobanermovil_680{
+    display: none;
+  }
+  .carousel-item {
+    height: 117rem;
+
+  }
+  .carousel-caption h1{
+    font-size: 34px;
+  }
+  #imgrectangulo{
+    width: 119%;
+    margin-top: 38px;
+    margin-left: -26px;
+  }
+  .num {
+    margin-top: -276px;
+  }  
+  #textmision {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1rem;
+  }
+  #text-leadcont{
+    font-size: 1rem;
+  }
+  #btninscrib{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #imgfootlog{
+    margin-left: -13px;    
+  }
+  
+  #imgredesocialesfoot{
+    margin-left: 62px;
+  }
+
+  #marketing{
+    padding: 0px;
+  }
+  #leadtextgremial{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #text-organismoinfo {
+    margin-left: 17px;
+  }
+  .text-organismo{
+    padding-top: 5.25rem !important;
+  }
+  #imgcapac1{
+    width: 500px !important;
+  }
+  #imgrelogpared{
+    height: auto;
+    margin-left: 5px;
+    position: sticky;
+    width: 25px;
+    margin-top: 5px;
+  }
+
+  
+  
+
+}
+
+@media all and (min-width: 768px) and (max-width: 980px) { 
+
+  .num {
+    margin-top: -225px;
+    font-size: 80.37px !important;
+   }  
+  #textmision {
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 15px;
+    }
+  
+  #text-leadcont{
+    font-size: 1rem;
+  }
+  #imgrectangulo {
+    width: 126%;
+    margin-top: -15px;
+    margin-left: -26px; 
+  }
+  .carousel-caption h1{
+    font-size: 26px;
+  }
+ 
+  #linenoticias{
+    width: 32rem;
+  } 
+  #leadtextgremial{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #text-organismoinfo {
+    margin-left: 17px;
+  }
+  .text-organismo{
+    padding-top: 5.25rem !important;
+  }
+  #imgcapac1{
+    width: 395px !important;
+  }
+  #myCarousel4{
+    display: block;
+  }
+}
+
+
+
+@media all and (min-width: 606px) and (max-width: 767px) { 
+  video {
+    margin-left: -146px;
+  }
+  #banerrigt{
+    display: none;
+  }
+  #videobanermovil{
+    display: block;
+  }
+  #videomovildesk{
+    display: none;
+  }
+  #videobanermovil_680{
+    display: none;
+  }
+  .carousel-item {
+    height: 117rem;
+
+  }
+  #textmision{
+    margin-bottom: 195px;
+  }
+  #imgrectangulo {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  #textmisionCont{
+    text-align: center;
+    margin-bottom: 62px;    
+    font-size: 50px !important;
+  }
+  #text-leadcont{
+    text-align: center;
+    margin-bottom: 10px;
+  }  
+  #instrumento {
+    margin-top: 113px;
+  }
+  #myCarousel3{
+    margin-top: 0px;
+    display: none;
+  }
+  #myCarousel4{
+    display: block;
+  }
+  #imgcapac1{
+    width: 100%;
+    height: 53% !important;
+    position: absolute;
+    margin-bottom: -41px;
+    border-radius: 25px 25px 0px 0;
+    margin-left: -12px;
+  }
+
+    #text-organismoinfo{
+    padding-top: 24.25rem;
+    margin-left: 0px;
+  }
+
+  #featuretteid{
+    color: black;
+    font-size: 31px;
+    text-align: center;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  #marketing{
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+
+  #btninscrib{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #heightmovcarruce {
+    height: 44rem;
+  }
+  .carousel-item {
+    height: 56rem;
+  }
+  #btndiv{
+    margin-top: 12px;
+  }
+  #leadtextgremial{
+    font-size: 16px;
+    margin-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    margin-top: 35px;
+  }
+  .featurette{
+    font-family: "Montserrat Black";
+    font-size: 40px;
+  }
+  #titleorganismo{
+    margin-bottom: 40px;
+  }
+  #leadcard{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: "Roboto Regular";
+    
+  }
+
+  #margintop-marketing{
+    margin-top: -378px;
+  }
+
+  #textevents{
+    padding-right: 0px;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  #carousel-itemMov{
+    height: 34rem !important;
+    margin-bottom: 44px;
+  }
+
+  #textcardeventos{
+    font-size: 27px;
+
+  }
+
+  #titleeventos{
+    text-align: center;
+    font-size: 31px;
+    padding-right: 0px;
+    margin-top: 161px;
+  
+  }
+  #linenoticias{
+    width: 32rem;
+  }  
+
+}
+@media all and (min-width: 551px) and (max-width: 605px) { 
+  #imgcapac1 {
+    height: 53% !important;
+    
+  }
+  #text-organismoinfo{
+    padding-top: 23.25rem !important;
+  }
+  .gremialmovilcarousel{
+    margin-top: 65px !important;
+  }
+
+}
+
+
+@media all and (min-width: 480px) and (max-width: 605px) { 
+  video {
+    margin-left: 0px;
+  }
+  #banerrigt{
+    display: none;
+  }
+  #videobanermovil{
+    display: none;
+  }
+  #videomovildesk{
+    display: none;
+  }
+  #videobanermovil_680{
+    display: block;
+  }
+  .carousel-item {
+    height: 62rem;
+  }
+  #textmision{
+    margin-bottom: 195px;
+  }
+  #imgrectangulo {
+    width: 74%;
+    margin-top: 0px;
+    margin-left: 65px;
+}
+
+  span.num{
+    font-size: 92.37px;
+  }
+  .num{
+    margin-top: -267px;
+  }
+
+  #textmision{
+    margin-bottom: 203px;
+    font-size: 16px;
+    padding-left: 92px;
+    padding-right: 82px;    
+  }
+  #textmisionCont{
+    text-align: center;
+    margin-bottom: 62px;    
+    font-size: 50px !important;
+  }
+  #text-leadcont{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-left: 55px;
+    padding-right: 55px
+  }  
+  #instrumento {
+    margin-top: 113px;
+  }
+
+  #myCarousel3{
+    margin-top: 0px;
+    display: none;
+  }
+  #myCarousel4{
+    display: block;
+  }
+  .carousel-caption h1{
+    font-size: 29px;
+  }
+ 
+  #imgcapac1{
+    width: 100%;
+    height: 38%;
+    position: absolute;
+    margin-bottom: -41px;
+    border-radius: 25px 25px 0px 0;
+    margin-left: -12px;
+  }
+
+    #text-organismoinfo{
+    padding-top: 14.25rem;
+    margin-left: 0px;
+  }
+
+  #featuretteid{
+    color: black;
+    font-size: 31px;
+    text-align: center;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  #marketing{
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+
+  #btninscrib{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #heightmovcarruce {
+    height: 44rem;
+  }
+  .carousel-item {
+    height: 56rem;
+  }
+  #btndiv{
+    margin-top: 12px;
+  }
+  #leadtextgremial{
+    font-size: 16px;
+    margin-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    margin-top: 35px;
+  }
+  .featurette{
+    font-family: "Montserrat Black";
+    font-size: 40px;
+  }
+  #titleorganismo{
+    margin-bottom: 40px;
+  }
+  #leadcard{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: "Roboto Regular";
+    
+  }
+
+  #margintop-marketing{
+    margin-top: -378px;
+  }
+
+  #textevents{
+    padding-right: 0px;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  #carousel-itemMov{
+    height: 34rem !important;
+    margin-bottom: 44px;
+  }
+
+  #textcardeventos{    
+    font-size: 27px;
+
+  }
+
+  #titleeventos{
+    text-align: center;
+    font-size: 31px;
+    padding-right: 0px;
+  }
+
+
+  #linenoticias{
+    width: 24rem;
+  }  
+  .gremialmovilcarousel{
+    margin-top: 65px;
+  }
+  
+  
+
+}
+
+/*LINEA DE EVENTOS Y NOTICIAS*/
+@media all and (min-width: 350px) and (max-width: 413px) { 
+
+  #linenoticias{
+    width: 17rem;
+  }  
+
+}
+
+@media all and (min-width: 414px) and (max-width: 479px) { 
+
+  #linenoticias{
+    width: 20rem;
+  }  
+
+}
+
+
+
+@media all and (min-width: 350px) and (max-width: 479px) { 
+  video {
+    margin-left: -79px;
+  }
+  #banerrigt{
+    display: none;
+  }
+  #videobanermovil{
+    display: none;
+  }
+  #videomovildesk{
+    display: none;
+  }
+  #videobanermovil_680{
+    display: block;
+  }
+  .carousel-item {
+    height: 62rem;
+
+  }
+ 
+  #textmision{
+    margin-bottom: 195px;
+  }
+  #imgrectangulo {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  span.num{
+    font-size: 78.37px
+  }
+  .num{
+    margin-top: -246px;
+  }
+
+  #textmision{
+    margin-bottom: 203px;
+    font-size: 16px;
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+  #textmisionCont{
+    text-align: center;
+    margin-bottom: 62px;    
+    font-size: 50px !important;
+    margin-top: -62px;
+  }
+  #text-leadcont{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 16px;
+  }  
+  #featuretteid{
+    color: black;
+    font-size: 31px;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  #instrumento {
+    margin-top: 82px;
+  }
+
+
+  #imgcapac1{
+    width: 100%;
+    height: 38%;
+    position: absolute;
+    margin-bottom: -41px;
+    border-radius: 25px 25px 0px 0;
+    margin-left: -12px;
+  }
+
+  #text-organismoinfo{
+    padding-top: 14.25rem;
+    margin-left: 0px;
+  }
+
+  #marketing{
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+
+  #btninscrib{
+    width: 69%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 37px;
+  }
+
+  #myCarousel3{
+    margin-top: 0px;
+    display: none;
+  }
+
+  #myCarousel4{
+    display: block;
+  }
+  
+  #btndiv{
+    margin-top: 12px;
+  }
+  .carousel-caption h1{
+    font-size: 33px;
+  }
+
+  #leadtextgremial{
+    font-size: 16px;
+    margin-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    margin-top: 35px;
+  }
+  .featurette{
+    font-family: "Montserrat Black";
+    font-size: 40px;
+  }
+  #titleorganismo{
+    margin-bottom: 40px;
+  }
+  #leadcard{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: "Roboto Regular";
+    
+  }
+
+  #margintop-marketing{
+    margin-top: -378px;
+  }
+
+  #textevents{
+    padding-right: 0px;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  #carousel-itemMov{
+    height: 34rem !important;
+    margin-bottom: 44px;
+  }
+
+  #textcardeventos{
+    font-size: 22px;
+
+  }
+
+  #titleeventos{
+    text-align: center;
+    font-size: 31px;
+    padding-right: 0px;
+  }
+  
+  /*MOVIL NOTICIAS*/
+
+  #linenoticias{
+
+  }
+
+  .gremialmovilcarousel{
+    margin-top: 65px;
+  }
+  
+  
+}
+
+/****************Colegio*******************/
+.carousel-item.active.top-fill{
+  height: 46rem;
+}
+
+.college-white{
+  margin-top: -20rem;
+  position: relative;
+  z-index: 10;
+  min-height: 75vw;
+}
+
+#stairs{
+  width: 100%;
+}
+
+#building{
+  width: 100%;
+}
+
+.image-desc{
+  font-family: "Roboto Regular";
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.founders{
+  text-decoration: none;
+  list-style: none;
+  text-align: right;
+  font-family: "Roboto Medium";
+  color: #7F7F7F;
+}
+
+.black-text-college{
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+  color: #7F7F7F;
+  font-family: "Roboto Medium";
+  font-size: 1.2rem;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.white-text-college{
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ffffff;
+  font-family: "Roboto Medium";
+  font-size: 1.2rem;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.main-text-space{
+  position: relative;
+}
+
+.separator{
+  height: 5rem;
+}
+
+
+
+@media all and (min-width: 1200px) and (max-width: 1399px) { 
+  .carousel-item.active.top-fill{
+    height: 43rem;
+  }
+  
+  .college-white{
+    margin-top: -18rem;
+  }
+
+  .black-text-college{
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  .white-text-college{
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1199px) { 
+  .carousel-item.active.top-fill{
+    height: 40rem;
+  }
+
+  .college-white{
+    margin-top: -15rem;
+    min-height: 100vw;
+  }
+
+  .black-text-college{
+    font-size: 1rem;
+    line-height: 1.2;
+    bottom: 18%;
+  }
+  
+  .white-text-college{
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 999px) { 
+  .carousel-item.active.top-fill{
+    height: 40rem;
+  }
+
+  .college-white{
+    margin-top: -15rem;
+    min-height: 120vw;
+  }
+
+  .black-text-college{
+    font-size: 0.9rem;
+    line-height: 1.2;
+    bottom: 20%;
+  }
+  
+  .white-text-college{
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) { 
+  .carousel-item.active.top-fill{
+    height: 38rem;
+  }
+
+  .college-white{
+    margin-top: -12rem;
+    min-height: 120vw;
+  }
+
+  .black-text-college{
+    font-size: 0.8rem;
+    line-height: 1.1;
+    bottom: 18%;
+  }
+  
+  .white-text-college{
+    font-size: 0.8rem;
+    line-height: 1.1;
+  }
+
+  .image-desc{
+    font-size: 0.7rem;
+  }
+  
+  .founders{
+    font-size: 0.8rem;
+  }
+}
+
+@media all and (min-width: 606px) and (max-width: 767px) {
+  .college-white{
+    min-height: 260vw;
+  }
+
+  .black-text-college{
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.1;
+    bottom: 0;
+  }
+  
+  .white-text-college{
+    margin-top: 4rem;
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.1;
+    color: #7F7F7F;
+  }
+
+  .image-desc{
+    font-size: 0.8rem;
+  }
+  
+  .founders{
+    font-size: 1rem;
+  }
+  
+  .separator{
+    height: 2rem;
+  }
+  .gremialmovilcarousel{
+    display: block;
+  }
+  #textfooterrigth{
+    text-align: center;
+ }
+ 
+}
+
+@media all and (min-width: 480px) and (max-width: 605px) { 
+  .college-white{
+    margin-top: -22rem;
+    min-height: 360vw;
+  }
+
+  .black-text-college{
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.1;
+    bottom: 0;
+  }
+  
+  .white-text-college{
+    margin-top: 4rem;
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.1;
+    color: #7F7F7F;
+  }
+
+  .image-desc{
+    font-size: 0.8rem;
+  }
+  
+  .founders{
+    font-size: 1rem;
+  }
+  
+  .separator{
+    height: 2rem;
+  }
+  .gremialmovilcarousel{
+    display: block;
+  }
+  #textfooterrigth{
+    text-align: center;
+ }
+ 
+}
+
+@media all and (min-width: 350px) and (max-width: 479px) { 
+  .carousel-item.active.top-fill{
+    height: 34rem;
+  }
+
+  .college-white{
+    margin-top: -12rem;
+    min-height: 480vw;
+  }
+
+  .black-text-college{
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.1;
+    bottom: 0;
+  }
+  
+  .white-text-college{
+    margin-top: 4rem;
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.1;
+    color: #7F7F7F;
+  }
+
+  .image-desc{
+    font-size: 0.8rem;
+  }
+  
+  .founders{
+    font-size: 1rem;
+  }
+  
+  .separator{
+    height: 3rem;
+  }
+  .gremialmovilcarousel{
+    display: block;
+  }
+  #textfooterrigth{
+    text-align: center;
+ }
+ 
+}
+
+
+/****************Afilicacion*******************/
+
+.top-fill{
+  background-color: #FF1C22;
+}
+
+.square{
+  padding: 50px;
+  border-radius: 50px;
+  background-color: #fff;
+  position: relative;
+  margin-top: -22rem;
+  z-index: 10;
+  -webkit-box-shadow: -1px 6px 25px 15px rgba(0,0,0,0.17);
+  -moz-box-shadow: -1px 6px 25px 15px rgba(0,0,0,0.17);
+  box-shadow: -1px 6px 25px 15px rgba(0,0,0,0.17);
+}
+
+.form-field{
+  width: 100%;
+  background-color: #F1F1F1;
+  color: #7F7F7F;
+  font-family: "Roboto Medium";
+  border-radius: 15px;
+  border-style: none;
+  height: 60px;
+  margin: 30px 0;
+  padding: 0 30px;
+}
+
+textarea.form-field{
+  height: 130px;
+  padding: 12px 20px;
+  resize: none;
+}
+
+.button-form{
+  width: 100%;
+  border-radius: 15px;
+  border-style: none;
+  height: 40px;
+  margin: 20px 0;
+  background-color: #FF1C22;
+  color:#fff;
+}
+
+.white-section{
+  min-height: 40vw;
+}
+
+#sentmsg{
+  color:#009714; 
+  font-size:14px; 
+  text-align:center;
+  margin:auto; 
+}
+
+#notsentmsg{
+  color:#9c1827; 
+  font-size:14px; 
+  text-align:center;
+  margin:auto; 
+}
+
+.icon-confirm{
+  font-size:44px;
+}
+
+@media all and (min-width: 1200px) and (max-width: 1590px) { 
+  .white-section{
+    min-height: 60vw;
+  }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1199px) { 
+  .white-section{
+    min-height: 70vw;
+  }
+  .top-fill{
+    height: 50rem;
+  }
+  .square{
+    margin-top: -18rem;
+  }
+  #titleeventos{
+    padding-right: 0px;
+    font-size: 26px;
+  }
+  
+  
+  #textevents{
+    font-size: 1.25rem;
+    padding-right: 0px;
+  }
+  #textcardeventos {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 999px) { 
+  .white-section{
+    min-height: 110vw;
+  }
+  .top-fill{
+    height: 50rem;
+  }
+  .square{
+    margin-top: -18rem;
+  }
+  
+#titleeventos{
+  padding-right: 0px;
+  font-size: 26px;
+}
+
+
+  #textevents{
+    font-size: 1.25rem;
+    padding-right: 0px;
+  }
+  #textcardeventos {
+    font-size: 20px;
+  }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) { 
+  .white-section{
+    min-height: 90vw;
+  }
+  .top-fill{
+    height: 50rem;
+  }
+  .square{
+    margin-top: -12rem;
+  }
+
+  
+  #titleeventos{
+    padding-right: 0px;
+    font-size: 26px;
+  }
+
+
+  #textevents{
+    font-size: 1.25rem;
+    padding-right: 0px;
+  }
+  #textcardeventos {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 606px) and (max-width: 767px) { 
+  .white-section{
+    min-height: 140vw;
+  }
+  .top-fill{
+    height: 50rem;
+  }
+  .square{
+    margin-top: -22rem;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 605px) { 
+  .white-section{
+    min-height: 190vw;
+  }
+  .top-fill{
+    height: 50rem;
+  }
+  .square{
+    margin-top: -22rem;
+  }
+}
+
+@media all and (min-width: 350px) and (max-width: 479px) { 
+  .white-section{
+    min-height: 250vw;
+  }
+  .top-fill{
+    height: 50rem;
+  }
+  .square{
+    margin-top: -8rem;
+  }
+}
+
+/*************************Contacto****************************/
+.back-contact{
+  background: rgb(255,0,0);
+  background: -moz-linear-gradient(90deg, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%);
+  background: -webkit-linear-gradient(90deg, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ffffff",GradientType=1);
+}
+
+.list-contact{
+  margin: 17% 0;
+}
+
+.list-contact a{
+  text-decoration: none;
+  color: #7F7F7F;
+  font-family: "Roboto Medium";
+  text-transform: uppercase;
+}
+
+.list-contact li{
+  margin: 2rem;
+}
+
+@media all and (min-width: 1000px) and (max-width: 1199px) { 
+  .logo-contact{
+    width: 95%;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 999px) { 
+  .logo-contact{
+    width: 95%;
+    margin: 50% 0;
+  }
+}
+
+@media all and (min-width: 606px) and (max-width: 767px) { 
+  .back-contact{
+    background: rgb(255,0,0);
+    background: -moz-linear-gradient(180deg, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%);
+    background: -webkit-linear-gradient(180deg, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%);
+    background: linear-gradient(180deg, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ffffff",GradientType=1);
+  }
+  .logo-contact{
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 605px) { 
+  .back-contact{
+    background: rgb(255,0,0);
+    background: -moz-linear-gradient(180deg, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%);
+    background: -webkit-linear-gradient(180deg, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%);
+    background: linear-gradient(180deg, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ffffff",GradientType=1);
+  }
+  .logo-contact{
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 350px) and (max-width: 479px) { 
+  .list-contact li{
+    margin: 4px;
+  }
+
+  .back-contact{
+    background: rgb(255,0,0);
+    background: -moz-linear-gradient(180deg, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%);
+    background: -webkit-linear-gradient(180deg, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%);
+    background: linear-gradient(180deg, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ffffff",GradientType=1);
+  }
+  .logo-contact{
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 349px) { 
+  .list-contact li{
+    margin: 4px;
+  }
+
+  .back-contact{
+    background: rgb(255,0,0);
+    background: -moz-linear-gradient(180deg, rgba(255,0,0,1) 40%, rgba(255,255,255,1) 40%);
+    background: -webkit-linear-gradient(180deg, rgba(255,0,0,1) 40%, rgba(255,255,255,1) 40%);
+    background: linear-gradient(180deg, rgba(255,0,0,1) 40%, rgba(255,255,255,1) 40%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ffffff",GradientType=1);
+  }
+  .logo-contact{
+    width: 100%;
+  }
+}
